@@ -1,2 +1,13 @@
+# We want to ignore all files without a dot in their name.
+
+# See
+# https://stackoverflow.com/questions/19023550/how-do-i-add-files-without-dots-in-them-all-extension-less-files-to-the-gitign
+
+# Ignore everything
+*
+# Whitelist subdirectories
+!/**/
 **/bin
+# Whitelist files with a dot
+!*.*
 
